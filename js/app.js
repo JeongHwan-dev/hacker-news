@@ -1,3 +1,5 @@
+'use strict';
+
 const container = document.getElementById('root');
 const ajax = new XMLHttpRequest();
 const content = document.createElement('div');
