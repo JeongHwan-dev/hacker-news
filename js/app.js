@@ -33,18 +33,18 @@ function newsFeed() {
   const newsList = [];
 
   let template = `
-    <div class="bg-gray-600 min-h-screen">
-      <div class="bg-white text-xl">
+    <div class="bg-gray-200 min-h-screen">
+      <div class="bg-yellow-500 text-xl">
         <div class="mx-auto px-4">
           <div class="flex justify-between items-center py-6">
             <div class="flex justify-start">
-              <h1 class="font-extrabold">Hacker News</h1>
+              <h1 class="font-extrabold text-white">Hacker News</h1>
             </div>
             <div class="items-center justify-end">
-              <a href="#/page/{{__prev_page__}}" class="text-gray-500">
+              <a href="#/page/{{__prev_page__}}" class="text-gray-100 duration-200 hover:text-gray-300">
                 Previous
               </a>
-              <a href="#/page/{{__next_page__}}" class="text-gray-500 ml-4">
+              <a href="#/page/{{__next_page__}}" class="ml-4 text-gray-100 duration-200 hover:text-gray-300">
                 Next
               </a>
             </div>
@@ -64,8 +64,8 @@ function newsFeed() {
   for (let i = (store.currentPage - 1) * 10; i < store.currentPage * 10; i++) {
     newsList.push(`
       <div class="p-6 ${
-        newsFeed[i].read ? 'bg-red-500' : 'bg-white'
-      } mt-6 rounded-lg shadow-md transition-colors duration-500 hover:bg-green-100">
+        newsFeed[i].read ? 'bg-gray-300 text-gray-500' : 'bg-white'
+      } mt-6 rounded-lg shadow-md transition-colors duration-500 hover:bg-yellow-100">
         <div class="flex">
           <div class="flex-auto">
             <a href="#/show/${newsFeed[i].id}">${newsFeed[i].title}</a>
@@ -114,15 +114,15 @@ function newsDetail() {
   const newsContent = getData(CONTENT_URL.replace('@id', id));
 
   let template = `
-    <div class="bg-gray-600 min-h-screen pb-8">
-      <div class="bg-white text-xl">
+    <div class="bg-gray-200 min-h-screen pb-8">
+      <div class="bg-yellow-500 text-xl">
         <div class="mx-auto px-4">
           <div class="flex justify-between items-center py-6">
             <div class="flex justify-start">
-              <h1 class="font-extrabold">Hacker News</h1>
+              <h1 class="font-extrabold text-white">Hacker News</h1>
             </div>
             <div class="items-center justify-end">
-              <a href="#/page/${store.currentPage}" class="text-gray-500">
+              <a href="#/page/${store.currentPage}" class="text-gray-100 duration-200 hover:text-gray-300">
                 <i class="fa fa-times"></i>
               </a>
             </div>
