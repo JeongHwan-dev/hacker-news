@@ -19,7 +19,7 @@
 
 ## 💁🏻‍♂ 웹 서비스 소개
 
-**Hacker News**에서 제공하는 [**Open API**](https://github.com/tastejs/hacker-news-pwas/blob/master/docs/api.md)를 활용해 만든 IT 뉴스 제공 웹 서비스입니다.
+[**Hacker News**](https://news.ycombinator.com/)에서 제공하는 [**Open API**](https://github.com/tastejs/hacker-news-pwas/blob/master/docs/api.md)를 활용해 만든 **IT 뉴스 제공 웹 서비스**입니다.
 
 > 반응형 웹이 적용되어 있습니다.
 
