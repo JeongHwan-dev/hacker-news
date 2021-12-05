@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="./readme-assets/hacker-news_logo.jpg" alt="Hacker News" height="200px" />
+  <img src="./readme_assets/hacker-news_logo.jpg" alt="Hacker News" height="200px" />
   <br />
   <h1>해커 뉴스 (Hacker News)</h1>
   <br />
@@ -10,14 +10,14 @@
 
 1. [**웹 서비스 소개**](#1)
 2. [**기술 스택**](#2)
-3. [**주요 페이지**](#3)
+3. [**데모 영상**](#3)
 4. [**실행 방법**](#4)
 
 <br />
 
 <div id='1'></div>
 
-## 💁🏻‍♂ 웹 서비스 소개
+## 💁 웹 서비스 소개
 
 [**Hacker News**](https://news.ycombinator.com/)에서 제공하는 [**Open API**](https://github.com/tastejs/hacker-news-pwas/blob/master/docs/api.md)를 활용해 만든 **IT 뉴스 제공 웹 서비스**입니다.
 
@@ -25,7 +25,7 @@
 
 <br />
 
-[**🔗 배포된 웹 서비스로 바로가기 Click !**]() 👈
+[**🔗 배포된 웹 서비스로 바로가기 Click !**](https://quirky-leakey-e00ff5.netlify.app/) 👈
 
 > 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
 
@@ -35,25 +35,33 @@
 
 ## 🛠 기술 스택
 
-**Front-end**
+### **Front-end**
 
-- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=white)
-- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?&logo=TailwindCSS&logoColor=white) ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339AF0?&logo=FontAwesome&logoColor=white)
+| <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" width="50px" height="50px" /> | <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" width="50px" height="50px" /> | <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" width="50px" height="50px" /> |
+| :----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------- |
+|                                                             HTML5                                                              |                                                             CSS3                                                             | JavaScript(ES6)                                                                                                                 |
 
-**DevOps**
+### **DevOps**
 
-- ![Git](https://img.shields.io/badge/-Git-F05032?&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github&logoColor=white)
-- ![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?&logo=netlify&logoColor=white)
+| <img src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png" alt="Netlify" width="50px" height="50px" /> |
+| :---------------------------------------------------------------------------------------------------------------------------: |
+|                                                            Netlify                                                            |
+
+### **Version Control**
+
+| <img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" width="50px" height="50px" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="GitHub" width="50px" height="50px" /> |
+| :---------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+|                                                        Git                                                        |                                                         GitHub                                                         |
 
 <br />
 
 <div id='3'></div>
 
-## 📄 주요 페이지
+## 🎥 데모 영상
 
-| 메인 페이지 |
-| :---------: |
-|      -      |
+|                       메인 페이지                        |
+| :------------------------------------------------------: |
+| <img src="./readme_assets/demo.gif" alt="메인 페이지" /> |
 
 <br />
 
